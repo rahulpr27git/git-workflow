@@ -12,4 +12,9 @@ public class APIClass {
     public String get() {
         return "hello";
     }
+
+    @GetMapping("/world")
+    public String getWorld() {
+        return "hello world";
+    }
 }
